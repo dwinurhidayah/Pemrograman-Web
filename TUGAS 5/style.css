@@ -1,0 +1,852 @@
+@font-face {
+    font-family: Concert One;
+    src: url(ConcertOne-Regular.ttf);
+}
+
+.a {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: url(krop1.jpg);
+}
+
+#crop1 {
+    position: absolute;
+    width: 1459px;
+    height: 1040px;
+    left: 0px;
+    top: -16px;
+}
+
+#fotoprofil {
+    position: absolute;
+    width: 207px;
+    height: 292px;
+    left: 608px;
+    top: 423px;
+}
+
+.teks1 {
+    position: absolute;
+    width: 629px;
+    height: 101px;
+    left: 385px;
+    top: 717px;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 75px;
+    /* Yellow */
+    color: #F2C94C;
+}
+
+.teks2 {
+    position: absolute;
+    width: 604px;
+    height: 75px;
+    left: 441px;
+    top: 851px;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 37px;
+    /* Gray 3 */
+    color: #828282;
+}
+
+#rectangle1 {
+    position: absolute;
+    width: 291px;
+    height: 10px;
+    left: 53px;
+    top: 760px;
+    /* Gray 2 */
+    background: #4F4F4F;
+}
+
+#rectangle3 {
+    position: absolute;
+    width: 16px;
+    height: 14px;
+    left: 26px;
+    top: 756px;
+    /* Gray 1 */
+    background: #333333;
+}
+
+#rectangle4 {
+    position: absolute;
+    width: 291px;
+    height: 10px;
+    left: 80px;
+    top: 782px;
+    /* Gray 2 */
+    background: #4F4F4F;
+}
+
+#rectangle5 {
+    position: absolute;
+    width: 291px;
+    height: 10px;
+    left: 1049px;
+    top: 869px;
+    /* Gray 2 */
+    background: #4F4F4F;
+}
+
+#rectangle6 {
+    position: absolute;
+    width: 291px;
+    height: 10px;
+    left: 1077px;
+    top: 889px;
+    /* Gray 2 */
+    background: #4F4F4F;
+}
+
+#rectangle7 {
+    position: absolute;
+    width: 16px;
+    height: 14px;
+    left: 1380px;
+    top: 887px;
+    /* Gray 1 */
+    background: #333333;
+}
+
+.b {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #FFFFFF;
+}
+
+#crop2 {
+    position: absolute;
+    width: 1462px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+}
+
+#fotoprofil1 {
+    position: absolute;
+    width: 242px;
+    height: 422px;
+    left: 129px;
+    top: 105px;
+}
+
+#rectangle8 {
+    position: absolute;
+    width: 875px;
+    height: 345px;
+    left: 484.55px;
+    top: 96.5px;
+    /* Yellow */
+    background: #F2C94C;
+}
+
+.teks3 {
+    position: absolute;
+    width: 800px;
+    height: 240px;
+    left: 25px;
+    margin-top: 0px;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 35px;
+    /* Gray 2 */
+    color: #4F4F4F;
+}
+
+.teks4 {
+    position: absolute;
+    width: 374px;
+    height: 138px;
+    left: 22px;
+    top: 574px;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 65px;
+    /* Yellow */
+    color: #F2C94C;
+}
+
+.teks5 {
+    position: absolute;
+    width: 443px;
+    height: 121px;
+    left: 22px;
+    top: 755px;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    /* Gray 3 */
+    color: #828282;
+}
+
+.teks6 {
+    position: absolute;
+    width: 143px;
+    height: 55px;
+    left: 447px;
+    top: 442px;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 28px;
+    color: #000000;
+}
+
+#rectangle9 {
+    position: absolute;
+    width: 755px;
+    height: 10px;
+    left: 607px;
+    top: 489px;
+    /* Gray 2 */
+    background: #4F4F4F;
+}
+
+#rectangle10 {
+    position: absolute;
+    width: 291px;
+    height: 10px;
+    left: 1038px;
+    top: 517px;
+    /* Gray 2 */
+    background: #4F4F4F;
+}
+
+#rectangle11 {
+    position: absolute;
+    width: 16px;
+    height: 14px;
+    left: 1346px;
+    top: 517px;
+    /* Gray 1 */
+    background: #333333;
+}
+
+#rectangle12 {
+    position: absolute;
+    width: 16px;
+    height: 14px;
+    left: 502px;
+    top: 527px;
+    /* Gray 1 */
+    background: #333333;
+}
+
+#rectangle13 {
+    position: absolute;
+    width: 16px;
+    height: 14px;
+    left: 502px;
+    top: 560px;
+    /* Gray 1 */
+    background: #333333;
+}
+
+#accounting {
+    position: absolute;
+    width: 113px;
+    height: 140px;
+    left: 607px;
+    top: 572px;
+}
+
+#music {
+    position: absolute;
+    width: 133px;
+    height: 129px;
+    left: 892px;
+    top: 583px;
+}
+
+#orientation {
+    position: absolute;
+    width: 129px;
+    height: 134px;
+    left: 1184px;
+    top: 584px;
+}
+
+#positivity {
+    position: absolute;
+    width: 127px;
+    height: 135px;
+    left: 765px;
+    top: 806px;
+}
+
+#empathy {
+    position: absolute;
+    width: 131px;
+    height: 138px;
+    left: 1038px;
+    top: 803px;
+}
+
+.taccounting {
+    position: absolute;
+    width: 127px;
+    height: 52px;
+    left: 609px;
+    top: 733px;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 19px;
+    /* Gray 3 */
+    color: #828282;
+}
+
+.tmusic {
+    position: absolute;
+    width: 127px;
+    height: 52px;
+    left: 930px;
+    top: 733px;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 19px;
+    /* Gray 3 */
+    color: #828282;
+}
+
+.torientation {
+    position: absolute;
+    width: 127px;
+    height: 52px;
+    left: 1195px;
+    top: 736px;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 19px;
+    /* Gray 3 */
+    color: #828282;
+}
+
+.tpositivity {
+    position: absolute;
+    width: 127px;
+    height: 52px;
+    left: 786px;
+    top: 957px;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 19px;
+    /* Gray 3 */
+    color: #828282;
+}
+
+.tempathy {
+    position: absolute;
+    width: 127px;
+    height: 52px;
+    left: 1063px;
+    top: 957px;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 19px;
+    /* Gray 3 */
+    color: #828282;
+}
+
+.c {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+}
+
+#crop3 {
+    position: absolute;
+    width: 1465px;
+    height: 1071px;
+    left: -4px;
+    top: 0px;
+}
+
+#rectangle14 {
+    position: absolute;
+    width: 56px;
+    height: 10px;
+    left: 12px;
+    top: 97px;
+    /* Gray 2 */
+    background: #4F4F4F;
+}
+
+#rectangle15 {
+    position: absolute;
+    width: 16px;
+    height: 14px;
+    left: 81px;
+    top: 95px;
+    /* Gray 1 */
+    background: #333333;
+}
+
+#rectangle16 {
+    position: absolute;
+    width: 87px;
+    height: 10px;
+    left: 510px;
+    top: 95px;
+    /* Gray 2 */
+    background: #4F4F4F;
+}
+
+#rectangle17 {
+    position: absolute;
+    width: 49px;
+    height: 10px;
+    left: 527px;
+    top: 116px;
+    /* Gray 2 */
+    background: #4F4F4F;
+}
+
+#rectangle18 {
+    position: absolute;
+    width: 630.38px;
+    height: 10px;
+    left: 287px;
+    top: 404px;
+    /* Gray 2 */
+    background: #4F4F4F;
+    transform: rotate(89.85deg);
+}
+
+#rectangle19 {
+    position: absolute;
+    width: 56px;
+    height: 10px;
+    left: 600px;
+    top: 721px;
+    /* Gray 2 */
+    background: #4F4F4F;
+}
+
+#rectangle20 {
+    position: absolute;
+    width: 16px;
+    height: 14px;
+    left: 665px;
+    top: 720px;
+    /* Gray 1 */
+    background: #333333;
+}
+
+#rectangle21 {
+    position: absolute;
+    width: 16px;
+    height: 14px;
+    left: 586px;
+    top: 854px;
+    /* Gray 1 */
+    background: #333333;
+}
+
+#rectangle22 {
+    position: absolute;
+    width: 101.67px;
+    height: 10px;
+    left: 543px;
+    top: 928px;
+    /* Gray 2 */
+    background: #4F4F4F;
+    transform: rotate(89.85deg);
+}
+
+#rectangle23 {
+    position: absolute;
+    width: 16px;
+    height: 14px;
+    left: 584px;
+    top: 998px;
+    /* Gray 1 */
+    background: #333333;
+}
+
+#rectangle24 {
+    position: absolute;
+    width: 450px;
+    height: 10px;
+    left: 1000px;
+    top: 722.36px;
+    /* Gray 2 */
+    background: #4F4F4F;
+    transform: rotate(179.76deg);
+}
+
+#rectangle25 {
+    position: absolute;
+    width: 250px;
+    height: 10px;
+    left: 1200px;
+    top: 743px;
+    /* Gray 2 */
+    background: #4F4F4F;
+    transform: rotate(179.76deg);
+}
+
+#rectangle26 {
+    position: absolute;
+    width: 96.9px;
+    height: 10px;
+    left: 635px;
+    top: 141px;
+    /* Gray 2 */
+    background: #4F4F4F;
+    transform: rotate(89.38deg);
+}
+
+#rectangle27 {
+    position: absolute;
+    width: 49px;
+    height: 10px;
+    left: 680px;
+    top: 97px;
+    /* Gray 2 */
+    background: #4F4F4F;
+}
+
+#rectangle28 {
+    position: absolute;
+    width: 80px;
+    height: 10px;
+    left: 930px;
+    top: 99px;
+    /* Gray 2 */
+    background: #4F4F4F;
+}
+
+.teks7 {
+    position: absolute;
+    width: 394px;
+    height: 105px;
+    left: 120px;
+    top: 35px;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.teks8 {
+    position: absolute;
+    width: 425px;
+    height: 91px;
+    left: 124px;
+    top: 157px;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 28px;
+    /* Gray 3 */
+    color: #828282;
+}
+
+.teks81 {
+    position: absolute;
+    width: 425px;
+    height: 91px;
+    left: 128px;
+    top: 290px;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 28px;
+    /* Gray 3 */
+    color: #828282;
+}
+
+.teks82 {
+    position: absolute;
+    width: 425px;
+    height: 91px;
+    left: 128px;
+    top: 397px;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 28px;
+    /* Gray 3 */
+    color: #828282;
+}
+
+.teks83 {
+    position: absolute;
+    width: 425px;
+    height: 91px;
+    left: 128px;
+    top: 512px;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 28px;
+    /* Gray 3 */
+    color: #828282;
+}
+
+.teks9 {
+    position: absolute;
+    width: 206px;
+    height: 81px;
+    left: 745px;
+    top: 35px;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.teks10 {
+    position: absolute;
+    width: 224px;
+    height: 70px;
+    left: 735px;
+    top: 660px;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 37px;
+    color: #000000;
+}
+
+#watching {
+    position: absolute;
+    width: 135px;
+    height: 132px;
+    left: 708px;
+    top: 121px;
+}
+
+#travelling {
+    position: absolute;
+    width: 131px;
+    height: 133px;
+    left: 720px;
+    top: 291px;
+}
+
+#cyclyng {
+    position: absolute;
+    width: 138px;
+    height: 143px;
+    left: 713px;
+    top: 466px;
+}
+
+#listening {
+    position: absolute;
+    width: 135px;
+    height: 149px;
+    left: 1267px;
+    top: 173px;
+}
+
+#sweets {
+    position: absolute;
+    width: 119px;
+    height: 136px;
+    left: 1275px;
+    top: 363px;
+}
+
+#love {
+    position: absolute;
+    width: 127px;
+    height: 117px;
+    left: 1267px;
+    top: 569px;
+}
+
+.twatching {
+    position: absolute;
+    width: 277px;
+    height: 52px;
+    left: 881px;
+    top: 187px;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 19px;
+    /* Gray 3 */
+    color: #828282;
+}
+
+.ttravelling {
+    position: absolute;
+    width: 277px;
+    height: 52px;
+    left: 881px;
+    top: 337px;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 19px;
+    /* Gray 3 */
+    color: #828282;
+}
+
+.tcyclyng {
+    position: absolute;
+    width: 277px;
+    height: 52px;
+    left: 881px;
+    top: 517px;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 19px;
+    /* Gray 3 */
+    color: #828282;
+}
+
+.tlistening {
+    position: absolute;
+    width: 195px;
+    height: 52px;
+    left: 1072px;
+    top: 270px;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 19px;
+    /* Gray 3 */
+    color: #828282;
+}
+
+.tsweets {
+    position: absolute;
+    width: 113px;
+    height: 52px;
+    left: 1170px;
+    top: 431px;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 19px;
+    /* Gray 3 */
+    color: #828282;
+}
+
+.tlove {
+    position: absolute;
+    width: 177px;
+    height: 52px;
+    left: 1105px;
+    top: 603px;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 19px;
+    /* Gray 3 */
+    color: #828282;
+}
+
+#ig {
+    position: absolute;
+    width: 53px;
+    height: 49px;
+    left: 695px;
+    top: 776px;
+}
+
+#twitter {
+    position: absolute;
+    width: 60px;
+    height: 51px;
+    left: 690px;
+    top: 854px;
+}
+
+#line {
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    left: 682px;
+    top: 924px;
+}
+
+.tig {
+    position: absolute;
+    width: 179px;
+    height: 52px;
+    left: 786px;
+    top: 780px;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 19px;
+    /* Gray 3 */
+    color: #828282;
+}
+
+.ttwitter {
+    position: absolute;
+    width: 179px;
+    height: 52px;
+    left: 786px;
+    top: 870px;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 19px;
+    /* Gray 3 */
+    color: #828282;
+}
+
+.tline {
+    position: absolute;
+    width: 179px;
+    height: 52px;
+    left: 786px;
+    top: 951px;
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 19px;
+    /* Gray 3 */
+    color: #828282;
+}
