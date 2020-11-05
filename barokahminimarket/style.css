@@ -1,0 +1,126 @@
+@font-face {
+    font-family: Ribeye;
+    src: url(Ribeye-Regular.ttf);
+}
+
+#minimarket {
+    position: absolute;
+    width: 1235px;
+    height: 300px;
+    left: 0px;
+    top: 0px;
+}
+
+.teks {
+    position: absolute;
+    width: 673px;
+    height: 150px;
+    left: 300px;
+    top: 0px;
+    font-family: Ribeye;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 87px;
+    text-align: center;
+    color: #000000;
+}
+
+.teks1 {
+    position: absolute;
+    width: 497px;
+    height: 57px;
+    left: 385px;
+    top: 70px;
+    font-family: Ribeye;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #000000;
+}
+
+.teks2 {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 0px;
+    top: 270px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 49px;
+    text-align: center;
+    color: #000000;
+}
+
+.teks3 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 700px;
+    top: 365px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 49px;
+    text-align: center;
+    color: #000000;
+}
+
+.input {
+    position: absolute;
+    width: 497px;
+    height: 57px;
+    left: 700px;
+    top: 300px;
+}
+
+.tabel {
+    position: absolute;
+    width: 800px;
+    height: 80px;
+    left: 50px;
+    top: 330px;
+}
+
+.filter {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 700px;
+    top: 435px;
+}
+
+.tabel1 {
+    position: absolute;
+    width: 800px;
+    height: 80px;
+    left: 400px;
+    top: 70px;
+}
+
+.update {
+    position: absolute;
+    width: 800px;
+    height: 80px;
+    left: 500px;
+    top: 70px;
+}
+
+.form {
+    position: absolute;
+    width: 800px;
+    height: 80px;
+    left: 500px;
+    top: 70px;
+}
+
+.search {
+    position: absolute;
+    width: 800px;
+    height: 80px;
+    left: 400px;
+    top: 70px;
+}
